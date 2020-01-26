@@ -1,0 +1,27 @@
+body {
+    background: rgba(250, 130, 118, 1);
+}
+
+#playernames {
+    width: 100vw;
+
+    margin-top: 5vh;
+}
+
+input[type=text] {
+    width: 80vw;
+    height: 7vh;
+    margin: 1vh 5vw;
+
+    font-size: 3.5vh;
+    padding: 0 5vw;
+    color: rgba(250, 130, 118, 1);
+
+    background: rgba(255, 255, 255, 1);
+    border-radius: 3.5vh;
+    border: none;
+}
+
+::placeholder {
+    color: rgba(250, 130, 118, .5);
+}
