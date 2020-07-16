@@ -15,7 +15,7 @@ body {
 }
 
 h1 {
-    margin-top: 7.5vh;
+    margin-top: 5vh;
     font-weight: 700;
 }
 
@@ -30,6 +30,7 @@ h1 {
 
 #playerNameInputs {
     max-height: 55vh;
+    padding-bottom: 25vh;
     overflow-y: scroll;
 }
 
@@ -72,7 +73,6 @@ h1 {
 #addPlayerButton:active, #startGameButton:active {
     transform: scale(.95);
 }
-
 
 #addPlayerButton {
     left: 5vw;
