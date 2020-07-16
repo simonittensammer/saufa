@@ -1,21 +1,36 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <title>
-        SAUFA - des Trinkspü 
+        SCHWEMMEN
     </title>
 
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+
 </head>
 
 <body>
-    <div id="playernames">
-        <input type="text" placeholder="Player Name">
-        <input type="text" placeholder="Player Name">
+    <div id="mainmenu">
+        <h1>schwemmen</h1>
+
+        <form id="playerNameForm">
+            <div id="playerNameInputs">
+                <input type="text" class="playerNameInput" placeholder="Player Name">
+                <input type="text" class="playerNameInput" placeholder="Player Name">
+            </div>
+
+            <button id="addPlayerButton">Spieler hinzufügen</button>
+
+            <button id="startGameButton">Spiel starten</button>
+        </form>
     </div>
-    
+
     <script src="script/script.js"></script>
 </body>
+
 </html>
