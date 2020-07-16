@@ -18,16 +18,15 @@
     <div id="mainmenu">
         <h1>schwemmen</h1>
 
-        <form id="playerNameForm">
+        <div id="playerNameForm">
             <div id="playerNameInputs">
-                <input type="text" class="playerNameInput" placeholder="Player Name">
-                <input type="text" class="playerNameInput" placeholder="Player Name">
+
             </div>
 
-            <button id="addPlayerButton">Spieler hinzufügen</button>
+            <button id="addPlayerButton" onclick="addPlayerNameInput();">Spieler hinzufügen</button>
 
-            <button id="startGameButton">Spiel starten</button>
-        </form>
+            <button id="startGameButton" onclick="startGame();">Spiel starten</button>
+        </div>
     </div>
 
     <script src="script/script.js"></script>

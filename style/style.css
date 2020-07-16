@@ -6,6 +6,10 @@
     color: white;
 }
 
+input, textarea, button, select, a {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
 body {
     background: rgba(36, 148, 165, 1);
 }
@@ -39,7 +43,7 @@ h1 {
     color: rgba(36, 148, 165, 1);
 
     background: rgba(255, 255, 255, 1);
-    border-radius: 3.5vh;
+    border-radius: 25px;
     border: none;
 }
 
@@ -58,7 +62,11 @@ h1 {
 }
 
 #addPlayerButton:hover, #startGameButton:hover {
-    background: rgb(37, 182, 163);
+    background: rgb(35, 167, 149);
+}
+
+#addPlayerButton:active, #startGameButton:active {
+    transform: scale(.95);
 }
 
 
