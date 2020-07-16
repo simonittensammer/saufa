@@ -29,8 +29,7 @@ h1 {
 }
 
 #playerNameInputs {
-    max-height: 55vh;
-    padding-bottom: 25vh;
+    height: 55vh;
     overflow-y: scroll;
 }
 
