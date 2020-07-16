@@ -14,6 +14,7 @@ function addPlayerNameInput() {
     playerNameInputs.innerHTML += playerNameInput;
 
     playerNameInputs.childNodes.forEach(setInputValues);
+    playerNameInputs.scrollTop = playerNameInputs.scrollHeight;
 }
 
 function startGame() {
@@ -22,7 +23,7 @@ function startGame() {
     playerNames = playerNames.filter(element => {
         return element != null && element != '';
     });
-    
+
     console.log(playerNames);
 }
 
